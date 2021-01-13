@@ -1,0 +1,40 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: rgb(236, 234, 231);
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    color: rgb(1, 19, 39); 
+}
+
+h3 {
+    color: rgb(1, 19, 39);
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 305px;
+    margin: 30px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(137, 163, 211, 0.6);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 90px;
+    font-size: 60px;
+}
+
+.game-restart {
+    margin: 7px;
+    color: rgb(1, 19, 39)
+}
